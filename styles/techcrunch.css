@@ -87,7 +87,8 @@ iframe {
 .module-post-detail .headline,
 .module-post .headline a,
 .module-post-detail .headline a {
-  font-family: "Raleway", "PT Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, Sans_Serif;
+  font-family: "Raleway", "PT Sans", "Source Sans Pro", "Helvetica Neue",
+    Helvetica, Arial, Sans_Serif;
   line-height: 1.15;
   font-weight: normal;
   letter-spacing: 0px;

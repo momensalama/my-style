@@ -1,10 +1,12 @@
 # My Style
+
 [My Style](https://chrome.google.com/webstore/detail/my-style/ljdhjpmbnkbengahefamnhmegbdifhlb)
 is a Google Chrome extension that allows you to insert custom CSS into pages,
 immediately see the visual results, and have that CSS persist for future
 visits.
 
 ## Usage
+
 Take TechCrunch, for example. You may dislike the site's design and want to add
 your own touch--that is, your own style--to make it aesthetically pleasing.
 After installing the extension, visit [TechCrunch](http://techcrunch.com) and
@@ -29,33 +31,40 @@ editor. With this, you can circumvent the time it takes to inspect the element
 to find how to target it.
 
 ## Installation
+
 You may install My Style at the
 [Chrome Web Store](https://chrome.google.com/webstore/detail/my-style/ljdhjpmbnkbengahefamnhmegbdifhlb).
 Just click the 'Add to Chrome' button.
 
 ## How it works
+
 My Style is quite simple. It inserts a textarea into the page, looks for
 changes to the textarea's contents, and updates a dynamically inserted style
 tag appropriately. My Style employs local storage to make CSS changes
 persistent. It uses simple technologies for a simple result.
 
 ## Improvements
+
 Sites that clear local storage can erase My Style's custom CSS. A more
 persistent form of storage (e.g. the JavaScript FileSystem APIs) would be
 a better option to retain CSS.
 
 ## Contributors
+
 ### Karthik Viswanathan
+
 - GitHub: [@karthikv](https://github.com/karthikv)
 - Twitter: [@karthikvnet](https://twitter.com/karthikvnet)
 - Website: [http://karthikv.net](http://karthikv.net)
 - Email: me@karthikv.net
 
 ## Safari extension
+
 If you use Safari, consider downloading Luke Hagan's Safari port of My Style.
 It can be found at [lhagan/my-style](https://github.com/lhagan/my-style).
 
 ## License
+
 (The MIT License)
 
 Copyright (c) 2013 Karthik Viswanathan &lt;me@karthikv.net&gt;

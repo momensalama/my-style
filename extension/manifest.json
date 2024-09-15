@@ -1,14 +1,16 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "My Style",
   "description": "Insert custom CSS into pages, immediately see the visual results, and have that CSS persist for future visits.",
   "version": "0.3",
 
-  "content_scripts": [{
-    "matches": ["http://*/*", "https://*/*"],
-    "css": ["my-style.css"],
-    "js": ["my-style.js"],
-    "run_at": "document_start"
-  }]
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "css": ["my-style.css"],
+      "js": ["my-style.js"],
+      "run_at": "document_start"
+    }
+  ]
 }
